@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chess Timer by Swapan Roy</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1><span> <img src="/media/logo.png" alt="..." class="img-thumbnail">Chess Timer</span></h1>
+                    <h4>by Swapan Roy</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="min-height: 100px;">
+            <div class="col-md-12">
+                <span><button id="reset">RESET</button><h1 id="winner"></h1></span>
+            </div>
+        </div>
+        <div class="row player">
+            <div class="col-md-12">
+                <h1>Player 1</h1>
+                <h3 id="player-1-time"></h3>
+                <button id="player-1-button">CLICK</button>
+            </div>
+        </div>
+
+        <div class="row player">
+            <div class="col-md-12">
+                <h1>Player 2</h1>
+                <h3 id="player-2-time"></h3>
+                <button id="player-2-button">CLICK</button>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="lib.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
