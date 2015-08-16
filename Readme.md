@@ -9,7 +9,7 @@
 5. The Model is made up of three classes - the `GameClock`, the `Timer`, and the `EventEmitter`. 
 6. The `EventEmitter` is used by both the `Timer` and the `GameClock` class to consume and emit events. 
 7. The `Gameclock` instantiates two instances of `Timer` to represent Player 1 and Player 2. 
-8. The `Timer` class implements the countdown behavior using the `setInterval` function. The countdown is controlled two supporting methods: `activate` and `halt`. 
+8. The `Timer` class implements the countdown behavior using the `setInterval` function. The countdown is controlled by two supporting methods: `activate` and `halt`. 
 
 ## Primary Flow
 
